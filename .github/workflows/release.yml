@@ -1,6 +1,7 @@
 name: Release Creation
 
-on: 
+on:
+  workflow_dispatch:
   push:
     tags:
       - '*'
